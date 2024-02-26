@@ -14,7 +14,7 @@ The Data Structures project provides implementations of essential data structure
 
 ## Challenges Faced
 ### Resolving Hash Collisions in HashMap
-One significant challenge encountered during the development of the HashMap implementation in both Java and Python was resolving hash collisions. To address this issue, I implemented a solution using separate chaining. In Java, I created a generic `Pair` class to encapsulate key-value pairs and stored a linked list of pairs at each hash index to handle collisions effectively. This approach ensured efficient storage and retrieval of key-value pairs, even in the presence of hash collisions.
+One significant challenge encountered during the development of the HashMap implementation in both Java and Python was resolving hash collisions. To address this issue, I implemented a solution using separate chaining. In Java, I created a generic `Pair` class to encapsulate key-value pairs and stored a linked list of pairs at each hash index to handle collisions effectively. This approach ensured efficient storage and retrieval of key-value pairs, even in the presence of hash collisions. In python, a similar challenge was faced, but I used a standard list instead of a linkedlist, and tuples to store the key-value pairs.
 
 ### Making Classes Generic in Java
 Another challenge was making the classes generic in Java. Due to Java's strong typing system, I had to devise a method to work with generic types effectively. I learned that Java does not allow direct instantiation of generic types or arrays of generic types. To overcome this limitation, I instantiated arrays of objects and cast them to the generic type, ensuring type safety and flexibility in my implementations.
